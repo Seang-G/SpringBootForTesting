@@ -5,6 +5,7 @@ import com.coco.board.application.UserService;
 import com.coco.board.application.dto.UserDto;
 import com.coco.board.application.validator.CustomValidators;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
